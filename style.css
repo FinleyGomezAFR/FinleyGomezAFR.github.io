@@ -1893,8 +1893,8 @@ h2.slide-in.go {
 .banner .brand-logo {
   width: 227px;
   height: 35px;
-  -webkit-mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
-  mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+  -webkit-mask-image: url(../safari-pinned-tab.svg);
+  mask-image: url(../safari-pinned-tab.svg);
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
   background: #000;
@@ -1904,12 +1904,12 @@ h2.slide-in.go {
   background: #fff;
 }
 .no-cssmask .banner .brand-logo {
-  background-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+  background-image: url(../safari-pinned-tab.svg);
   background-repeat: no-repeat;
   background-color: transparent;
 }
 .no-cssmask .home .banner .brand-logo {
-  background-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+  background-image: url(../safari-pinned-tab.svg);
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -1927,12 +1927,12 @@ h2.slide-in.go {
 .banner.fixed .brand-logo {
   width: 130px;
   height: 20.04px;
-  -webkit-mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
-  mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+  -webkit-mask-image: url(../safari-pinned-tab.svg);
+  mask-image: url(../safari-pinned-tab.svg);
   background: #000;
 }
 .no-cssmask .banner.fixed .brand-logo {
-  background-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+  background-image: url(../safari-pinned-tab.svg);
   background-repeat: no-repeat;
   background-color: transparent;
 }
@@ -1981,14 +1981,14 @@ h2.slide-in.go {
   .banner .brand-logo {
     width: 157px;
     margin-top: 5px;
-    -webkit-mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
-    mask-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+    -webkit-mask-image: url(../safari-pinned-tab.svg);
+    mask-image: url(../safari-pinned-tab.svg);
   }
   .no-cssmask .banner .brand-logo {
-    background-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+    background-image: url(../safari-pinned-tab.svg);
   }
   .home .no-cssmask .banner .brand-logo {
-    background-image: url(https://i.ibb.co/hd9vTQg/AFR-logo.png);
+    background-image: url(../safari-pinned-tab.svg);
   }
   .banner.fixed {
     padding: 15px 30px;
