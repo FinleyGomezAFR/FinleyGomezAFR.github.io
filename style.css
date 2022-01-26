@@ -1617,7 +1617,7 @@ h2.slide-in.go {
 .newsletter-overlay .newsletter-modal {
   position: absolute;
   max-width: 500px;
-  background: #ccddb2;
+  background: #ee2e24;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -1916,7 +1916,7 @@ h2.slide-in.go {
 .banner.fixed {
   position: fixed;
   top: 0;
-  background: #ccddb2;
+  background: #ee2e24;
   padding: 15px 48px 25px;
   height: auto;
   z-index: 999;
@@ -2117,7 +2117,7 @@ h2.slide-in.go {
   width: 9px;
 }
 .nav-primary ul li ul {
-  background: #ccddb2;
+  background: #ee2e24;
   padding: 18px 18px 12px;
   position: absolute;
   right: 0;
@@ -2220,7 +2220,7 @@ h2.slide-in.go {
     height: 100%;
     padding: 110px 0 65px;
     margin-bottom: 0;
-    background: #ccddb2;
+    background: #ee2e24;
     display: none;
   }
   .nav-primary ul li {
@@ -2536,7 +2536,7 @@ footer .footer-fine-print a {
   }
 }
 .background.footer-in-view {
-  background: #ccddb2;
+  background: #ee2e24;
 }
 .background.transitioning {
   z-index: 999;
@@ -2583,7 +2583,7 @@ footer .footer-fine-print a {
 .tax-region .transition-bg.footer-in-view,
 .team .background.footer-in-view,
 .team .transition-bg.footer-in-view {
-  background-color: #ccddb2;
+  background-color: #ee2e24;
 }
 .blog .screen .screen-bottom,
 .blog .screen .screen-top,
@@ -2615,7 +2615,7 @@ footer .footer-fine-print a {
 .team .screen .screen-bottom,
 .team .screen .screen-top,
 .team .screen .screen__loader {
-  background: #ccddb2;
+  background: #ee2e24;
 }
 .blog .screen__loader-new,
 .home .screen__loader-new,
@@ -2639,7 +2639,7 @@ footer .footer-fine-print a {
 .tax-practiceareas .screen__loader-new.footer-in-view,
 .tax-region .screen__loader-new.footer-in-view,
 .team .screen__loader-new.footer-in-view {
-  background-color: #ccddb2;
+  background-color: #ee2e24;
 }
 .blog .banner.fixed,
 .home .banner.fixed,
@@ -2673,7 +2673,7 @@ footer .footer-fine-print a {
 .tax-region .nav-primary ul ul,
 .team.footer-active .banner.fixed,
 .team .nav-primary ul ul {
-  background-color: #ccddb2;
+  background-color: #ee2e24;
 }
 .blog .footer-active .nav-primary ul ul,
 .home .footer-active .nav-primary ul ul,
@@ -2708,7 +2708,7 @@ footer .footer-fine-print a {
   .tax-region .nav-primary ul,
   .team .fixed .nav-primary ul,
   .team .nav-primary ul {
-    background-color: #ccddb2;
+    background-color: #ee2e24;
   }
   .blog .fixed .nav-primary ul li ul,
   .blog .nav-primary ul li ul,
@@ -3491,7 +3491,7 @@ footer .footer-fine-print a {
 .team.footer-in-view input[type="submit"]:hover,
 .team .footer-in-view input[type="submit"]:hover {
   background: #000;
-  color: #ccddb2;
+  color: #ee2e24;
 }
 .blog.footer-active button:hover:before,
 .blog .footer-active button:hover:before,
@@ -3733,7 +3733,7 @@ footer .footer-fine-print a {
 .team .footer-in-view input[type="reset"]:hover:before,
 .team.footer-in-view input[type="submit"]:hover:before,
 .team .footer-in-view input[type="submit"]:hover:before {
-  color: #ccddb2;
+  color: #ee2e24;
 }
 .blog.footer-active button.btn-download:hover:before,
 .blog .footer-active button.btn-download:hover:before,
@@ -4761,7 +4761,7 @@ footer .footer-fine-print a {
 .team .footer-in-view input[type="submit"].btn-internal:hover:before,
 .team.footer-in-view input[type="submit"].print-btn:hover:before,
 .team .footer-in-view input[type="submit"].print-btn:hover:before {
-  background: #ccddb2;
+  background: #ee2e24;
 }
 .blog.footer-active button.btn-reverse:hover,
 .blog .footer-active button.btn-reverse:hover,
@@ -5311,7 +5311,7 @@ footer .footer-fine-print a {
   .careers .nav-primary ul,
   .contact .fixed .nav-primary ul,
   .contact .nav-primary ul {
-    background-color: #ccddb2;
+    background-color: #ee2e24;
   }
   .about .fixed .nav-primary ul li ul,
   .about .nav-primary ul li ul,
@@ -6125,7 +6125,7 @@ footer .footer-fine-print a {
   .our-expertise .nav-primary ul,
   .single-expertise .fixed .nav-primary ul,
   .single-expertise .nav-primary ul {
-    background-color: #ccddb2;
+    background-color: #ee2e24;
   }
   .our-expertise .fixed .nav-primary ul li ul,
   .our-expertise .nav-primary ul li ul,
@@ -6734,7 +6734,7 @@ footer .footer-fine-print a {
   .error404 .nav-primary ul,
   .privacy-policy .fixed .nav-primary ul,
   .privacy-policy .nav-primary ul {
-    background-color: #ccddb2;
+    background-color: #ee2e24;
   }
   .disclaimer .fixed .nav-primary ul li ul,
   .disclaimer .nav-primary ul li ul,
@@ -7548,7 +7548,7 @@ footer .footer-fine-print a {
   .testimonials .nav-primary ul,
   .useful-links .fixed .nav-primary ul,
   .useful-links .nav-primary ul {
-    background-color: #ccddb2;
+    background-color: #ee2e24;
   }
   .testimonials .fixed .nav-primary ul li ul,
   .testimonials .nav-primary ul li ul,
