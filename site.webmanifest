@@ -1,7 +1,7 @@
 {
     "name": "AFR Advocates",
     "short_name": "AFR Advocates",
-    "start_url": "https://finleygomezafr.github.io/",
+    "start_url": "../index.html",
     "icons": [
         {
             "src": "/android-chrome-36x36.png",
