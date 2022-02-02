@@ -48,7 +48,7 @@
             "sizes": "512x512",
             "type": "image/png",
             "purpose": "any maskable"
-    ],
+    ]
     "theme_color": "#ee2e24",
     "background_color": "#ee2e24",
     "display": "standalone",
