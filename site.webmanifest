@@ -3,7 +3,6 @@
     "short_name": "AFR Advocates",
     "start_url": "../index.html",
     "orientation": "portrait-primary"
-    "categories": ["business"]
     "icons": [
         {
             "src": "/android-chrome-36x36.png",
