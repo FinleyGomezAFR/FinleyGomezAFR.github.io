@@ -54,5 +54,5 @@
     "background_color": "#ee2e24",
     "display": "standalone",
     "orientation": "portrait-primary",
-    "categories": ["business"],
-},
+    "categories": ["business"]
+}
