@@ -1810,14 +1810,14 @@ h2.slide-in.go{
     .banner .brand-logo{
         width:157px;
         margin-top:5px;
-        -webkit-mask-image:url(../images/wt-logo-mobile.svg);
-        mask-image:url(../images/wt-logo-mobile.svg)
+        /*-webkit-mask-image:url(../images/wt-logo-mobile.svg);
+        mask-image:url(../images/wt-logo-mobile.svg)*/
     }
     .no-cssmask .banner .brand-logo{
         background-image:url(../images/wt-logo-mobile-blk.svg)
     }
     .home .no-cssmask .banner .brand-logo{
-        background-image:url(../images/wt-logo-mobile.svg)
+        /*background-image:url(../images/wt-logo-mobile.svg)*/
     }
     .banner.fixed{
         padding:15px 30px
