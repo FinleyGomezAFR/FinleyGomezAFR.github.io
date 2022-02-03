@@ -50,7 +50,7 @@
             "purpose": "any maskable"
         }
     ]
-    "theme_color": "#ee2e24",
+    "theme_color": "#ee2e24"
     "background_color": "#ee2e24",
     "display": "standalone",
     "orientation": "portrait-primary",
