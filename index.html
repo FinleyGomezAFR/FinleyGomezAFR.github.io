@@ -104,7 +104,27 @@
       <script type="module" src="/scripts/countUp.min.js"></script> 
       <script type="module" src="/scripts/jquery.js"></script> 
       <script type="module" src="/scripts/jquery-migrate.min.js"></script> 
-      <script type="module" src="/scripts/jquery.waypoints.min.js"></script> 
+      <script type="module" src="/scripts/jquery.waypoints.min.js"></script>
+      <script>jQuery.event.special.touchstart = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchstart", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.touchmove = {
+    setup: function( _, ns, handle ) {
+        this.addEventListener("touchmove", handle, { passive: !ns.includes("noPreventDefault") });
+    }
+};
+jQuery.event.special.wheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("wheel", handle, { passive: true });
+    }
+};
+jQuery.event.special.mousewheel = {
+    setup: function( _, ns, handle ){
+        this.addEventListener("mousewheel", handle, { passive: true });
+    }
+};</script>
       <script type="module" src="/scripts/main.js"></script> 
       <script type="module" src="/scripts/modernizr.js "></script> 
       <script type="module" src="/scripts/scripts.js"></script> 
