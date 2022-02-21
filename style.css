@@ -286,9 +286,9 @@ blockquote {
     font-family: HarmoniaSansStd-SemiBd;
     src: url("fonts/511746af-fa2f-4d6a-a07d-d43ef429229c.eot-.html#iefix");
     src: url("fonts/511746af-fa2f-4d6a-a07d-d43ef429229c.eot-.html#iefix") format("eot"),
-        url("fonts/57474f14-72fa-4863-b66a-dbfa8a7ae335.woff2.html") format("woff2"),
-        url("fonts/d34c80b1-6ea5-4219-a6e9-68c2fae4801b.woff.html") format("woff"),
-        url("fonts/4f5881eb-7c80-4a3d-befc-74fb6ee2358c.ttf.html") format("truetype");
+        url("fonts/57474f14-72fa-4863-b66a-dbfa8a7ae335.woff2") format("woff2"),
+        url("fonts/d34c80b1-6ea5-4219-a6e9-68c2fae4801b.woff") format("woff"),
+        url("fonts/4f5881eb-7c80-4a3d-befc-74fb6ee2358c.ttf") format("truetype");
 }
 
 @font-face {
