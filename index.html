@@ -4,8 +4,6 @@
       <meta charset="UTF-8">
       <title>AFR Advocates</title>
       <meta http-equiv="x-ua-compatible" content="ie=edge">
-      <meta http-equiv="cache-control" content="Private" />
-      <meta http-equiv="Expires" content="31536000" />
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
       <meta name="apple-mobile-web-app-capable" content="yes">
@@ -91,11 +89,6 @@
       <script type="module" src="/scripts/modernizr.js "></script> 
       <script type="module" src="/scripts/scripts.js"></script> 
       <script type="module" src="/scripts/wp-embed.min.js"></script> 
-      <script>(function(){var WebP=new Image();WebP.onload=WebP.onerror=function(){
-         if(WebP.height!=2){var sc=document.createElement('script');sc.type='text/javascript';sc.async=true;
-         var s=document.getElementsByTagName('script')[0];sc.src='scripts/webpjs-0.0.2.min.js';s.parentNode.insertBefore(sc,s);}};
-         WebP.src='data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';})();
-      </script>
    </head>
    <body class="home page-template-default page page-id-171">
       <div class="background">
@@ -134,15 +127,10 @@
             <div class="content row">
                <main class="main">
                   <div class="page-header">
-                     
-                     
                      <picture>
                         <source srcset="images/rcbkg.webp" alt="Robin Cowling - Partner" type="image/webp">
                         <img src="images/rcbkg.jpg"/>
                      </picture>
-                     
-                     
-                     <!--img src="images/rcbkg.webp" alt="Robin Cowling - Partner"-->
                      <div class="home-header-cta">
                         <h2>Let Us Help</h2>
                         <p><span class="label">Tel:</span><br>
@@ -188,15 +176,11 @@
             </div>
          </footer>
       </div>
+      <script type="module">
+         import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
+         const el = document.createElement('pwa-update');
+         document.body.appendChild(el);
+      </script>
+      <script type="javascript" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"></script>
    </body>
-   <!--script>
-      BodyOnready();
-      </script-->
-   <script type="module">
-      import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
-      
-      const el = document.createElement('pwa-update');
-      document.body.appendChild(el);
-   </script>
-   <script type="javascript" src="https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate"></script>
 </html>
