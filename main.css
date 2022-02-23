@@ -194,22 +194,42 @@ blockquote{
 @font-face{
     font-family:HarmoniaSansStd-SemiBd;
     src:url(../fonts/511746af-fa2f-4d6a-a07d-d43ef429229c.eot?#iefix);
-    src:url(../fonts/511746af-fa2f-4d6a-a07d-d43ef429229c.eot?#iefix) format("eot"),url(../fonts/57474f14-72fa-4863-b66a-dbfa8a7ae335.woff2) format("woff2"),url(../fonts/d34c80b1-6ea5-4219-a6e9-68c2fae4801b.woff) format("woff"),url(../fonts/4f5881eb-7c80-4a3d-befc-74fb6ee2358c.ttf) format("truetype")
+    src:url(../fonts/511746af-fa2f-4d6a-a07d-d43ef429229c.eot?#iefix) 
+        format("eot"),url(../fonts/57474f14-72fa-4863-b66a-dbfa8a7ae335.woff2) 
+        format("woff2"),url(../fonts/d34c80b1-6ea5-4219-a6e9-68c2fae4801b.woff) 
+        format("woff"),url(../fonts/4f5881eb-7c80-4a3d-befc-74fb6ee2358c.ttf) 
+        format("truetype");
+    font-display: swap
 }
 @font-face{
     font-family:HarmoniaSansStd-Italic;
     src:url(../fonts/c7db71dc-4436-476c-97a7-3d2e71534749.eot?#iefix);
-    src:url(../fonts/c7db71dc-4436-476c-97a7-3d2e71534749.eot?#iefix) format("eot"),url(../fonts/55ed488e-091d-4415-98e6-2553e159960d.woff2) format("woff2"),url(../fonts/b208b16d-2360-40a1-9865-dc0829ce5fe9.woff) format("woff"),url(../fonts/856fda6e-3696-4993-8e9f-e2ef885158e8.ttf) format("truetype")
+    src:url(../fonts/c7db71dc-4436-476c-97a7-3d2e71534749.eot?#iefix)
+        format("eot"),url(../fonts/55ed488e-091d-4415-98e6-2553e159960d.woff2)
+        format("woff2"),url(../fonts/b208b16d-2360-40a1-9865-dc0829ce5fe9.woff)
+        format("woff"),url(../fonts/856fda6e-3696-4993-8e9f-e2ef885158e8.ttf)
+        format("truetype");
+    font-display: swap
 }
 @font-face{
     font-family:HarmoniaSansStd-Regular;
     src:url(../fonts/ff64ca0e-c3c9-4d3b-9c37-19f62138da6d.eot?#iefix);
-    src:url(../fonts/ff64ca0e-c3c9-4d3b-9c37-19f62138da6d.eot?#iefix) format("eot"),url(../fonts/8ab8f46a-58d9-4ef2-8ea6-97d0dc759d8d.woff2) format("woff2"),url(../fonts/ceee675c-9cce-4231-8586-22b8bbf768b1.woff) format("woff"),url(../fonts/6feecae4-d72e-405a-adda-c282c2f13702.ttf) format("truetype")
+    src:url(../fonts/ff64ca0e-c3c9-4d3b-9c37-19f62138da6d.eot?#iefix)
+        format("eot"),url(../fonts/8ab8f46a-58d9-4ef2-8ea6-97d0dc759d8d.woff2)
+        format("woff2"),url(../fonts/ceee675c-9cce-4231-8586-22b8bbf768b1.woff)
+        format("woff"),url(../fonts/6feecae4-d72e-405a-adda-c282c2f13702.ttf)
+        format("truetype");
+    font-display: swap
 }
 @font-face{
     font-family:HarmoniaSansStd-SemiBdItal;
     src:url(../fonts/2b1fa1cf-d62d-4cce-90ab-96d044ef9c86.eot?#iefix);
-    src:url(../fonts/2b1fa1cf-d62d-4cce-90ab-96d044ef9c86.eot?#iefix) format("eot"),url(../fonts/43cee27a-9256-49c9-a03a-af82e4ea8b6b.woff2) format("woff2"),url(../fonts/25b58412-75d5-41ce-b594-7e82cb102ada.woff) format("woff"),url(../fonts/e9711eee-5dc1-41c6-a30f-9e08547c0df4.ttf) format("truetype")
+    src:url(../fonts/2b1fa1cf-d62d-4cce-90ab-96d044ef9c86.eot?#iefix)
+        format("eot"),url(../fonts/43cee27a-9256-49c9-a03a-af82e4ea8b6b.woff2)
+        format("woff2"),url(../fonts/25b58412-75d5-41ce-b594-7e82cb102ada.woff)
+        format("woff"),url(../fonts/e9711eee-5dc1-41c6-a30f-9e08547c0df4.ttf)
+        format("truetype");
+    font-display: swap
 }
 body{
     font-family:HarmoniaSansStd-Regular,sans-serif;
