@@ -5693,3 +5693,7 @@ body#tinymce{
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+.scroll-container {
+  scroll-behavior: smooth;
+}
