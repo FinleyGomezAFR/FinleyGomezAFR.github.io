@@ -62,6 +62,12 @@
            });
          }
       </script>
+      <style>
+        #map {
+            width: 300px;
+            height: 300px;
+        }
+        </style>
       <script type="application/ld+json">
          {
            "@context": "https://schema.org",
@@ -159,7 +165,25 @@
                   </p>
                </div>
                <div class="col40">
-                  <iframe title="AFR Advocates Office Location On Google Maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.4691198118912!2d-2.5396961841696766!3d49.45675006634217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x480d731e88cf2611%3A0xa7ca6b728a369218!2sAFR%20Advocates!5e0!3m2!1sen!2sgg!4v1643714812051!5m2!1sen!2sgg" width="300" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+                  <div id="map"></div>
+                  <script>
+        mapkit.init({
+            authorizationCallback: function(done) {
+                var xhr = new XMLHttpRequest();
+                xhr.open("GET", "/services/jwt");
+                xhr.addEventListener("load", function() {
+                    done(this.responseText);
+                });
+                xhr.send();
+            }
+        });
+        
+        var Cupertino = new mapkit.CoordinateRegion(
+            new mapkit.Coordinate(49.45668108954677, -2.5374501943588257),
+        );
+        var map = new mapkit.Map("map");
+        map.region = Cupertino;
+        </script>
                   <div class="flex-grid flex-grid--start footer-page-links">
                      <div class="col40">
                         <ul>
