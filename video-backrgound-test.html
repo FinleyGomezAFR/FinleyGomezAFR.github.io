@@ -1,4 +1,6 @@
-<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<!--[if lt IE 9]>
+<script>document.createElement('video');</script>
+<![endif]-->
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
@@ -69,9 +71,11 @@
         width: auto;
         height: auto;
         z-index: -100;
+
         video {
           display: block;
         }
+
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
         -webkit-transform: translateX(-50%) translateY(-50%);
@@ -79,6 +83,7 @@
         background: url(polina.jpg) no-repeat;
         background-size: cover;
       }
+
       /* @media screen and (max-device-width: 800px) {
         html {
           background: url(polina.jpg) #000 no-repeat center center fixed;
@@ -96,3 +101,12 @@
     </video>
   </body>
 </html>
+<script>
+  var vid = document.getElementById("bgvid"),
+    pauseButton = document.getElementById("vidpause");
+  if (window.matchMedia('(prefers-reduced-motion)').matches) {
+    vid.removeAttribute("autoplay");
+    vid.pause();
+    pauseButton.innerHTML = "Paused";
+  }
+</script>
