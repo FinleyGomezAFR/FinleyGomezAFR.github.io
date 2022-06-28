@@ -1,0 +1,98 @@
+<!--[if lt IE 9]><script>document.createElement('video');</script><![endif]-->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>WEBSITE NAME</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--FAVICON-->
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/favicon-48x48.png" sizes="48x48">
+    <!--LEGACY ICON-->
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!--SAFARI PINNED TAB-->
+    <link rel="mask-icon" href="safari_icon.svg">
+    <!--MANIFEST.JSON-->
+    <link rel="manifest" href="/manifest.json">
+    <!--APPLE ICONS-->
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+    <!--WINDOWS 8 TILES-->
+    <meta name="application-name" content="WEB PAGE NAME" />
+    <meta name="msapplication-TileColor" content=" #COLOUR" />
+    <meta name="msapplication-square70x70logo" content="/smalltile.png" />
+    <meta name="msapplication-square150x150logo" content="/mediumtile.png" />
+    <meta name="msapplication-wide310x150logo" content="/widetile.png" />
+    <meta name="msapplication-square310x310logo" content="/largetile.png" />
+    <meta name="msapplication-notification" content="frequency=30; polling-uri=notifications/contoso1.xml; polling-uri2=notifications/contoso2.xml; polling-uri3=notifications/contoso3.xml" />
+    <!--VIEWPORT-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--OGP TAGS-->
+    <meta property="og:title" content="WEBSITE NAME" />
+    <meta property="og:type" content="REFER TO ~https://ogp.me/#types~ USE ~website~ FOR GENERIC" />
+    <meta property="og:url" content="HOME PAGE URL" />
+    <meta property="og:image" content="OG IMAGE ~1200×630 pixels~" />
+    <meta property="og:image:secure_url" content="OG IMAGE URL" />
+    <meta property="og:image:type" content="REFER TO ~https://en.wikipedia.org/wiki/Media_type~" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="DESCRIPTION OF IMAGE" />
+    <!--TWITER CARD TAGS-->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:site" content="@TWITTERUSERNAMETOBEASSIGNEDTO" />
+    <meta name="twitter:title" content="SUMMARY OF CONTENT" />
+    <meta name="twitter:description" content="DESCRIPTION ~APPEARS IN SMALLER TEXT UNDERNEATH~" />
+    <meta name="twitter:image" content="1024 x 1024 IMAGE HERE" />
+    <meta name="twitter:image:alt" content="DESCRIPTION OF IMAGE GOES HERE" />
+    <!--SCHEMA.ORG MARKUP-->
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org/",
+        "@type": "Person",
+        "name": "FULL NAME",
+        "image": "IMAGE OF PERSON",
+        "url": "YOUR WEBSITE",
+        "jobTitle": "MUSICIAN",
+        "sameAs": ["FACEBOOK PAGE URL", "INSTA PAGE URL", "TWITTER PAGE URL", "YOUTUBE URL"]
+      }
+    </script>
+    <style>
+      video#bgvid {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        video {
+          display: block;
+        }
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        background: url(polina.jpg) no-repeat;
+        background-size: cover;
+      }
+      @media screen and (max-device-width: 800px) {
+        html {
+          background: url(polina.jpg) #000 no-repeat center center fixed;
+        }
+        #bgvid {
+          display: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+      <source src="polina.webm" type="video/webm">
+      <source src="polina.mp4" type="video/mp4">
+    </video>
+  </body>
+</html>
